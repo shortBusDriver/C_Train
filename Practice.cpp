@@ -1,10 +1,16 @@
+/* Source code */
 #include <stdio.h>
 int main()
 {
-  puts("Goodbye, cruel world!");
+  int a,b;
+
+  printf("Type a positive value: " );
+  scanf("%d",&b);
+  for(a=0;a<b;a++)
+  {
+    printf("I must do this %d time\n",b);
+    if(a==9)break;
+  }
 
     return(0);
-
-
-
 }
